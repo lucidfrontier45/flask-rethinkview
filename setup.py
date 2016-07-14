@@ -10,7 +10,7 @@ requires = [
 
 setup(
     name='flask-rethinkview',
-    version='0.1.1',
+    version='0.1.2',
     packages=["flask_rethinkview"],
     url='https://github.com/lucidfrontier45/flask-rethinkview',
     license='MIT',
