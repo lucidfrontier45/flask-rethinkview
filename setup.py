@@ -5,7 +5,7 @@ requires = [
     "flask_classful",
     "rethinkdb",
     "jsonschema",
-    "pyfunctional==0.6"
+    "pyfunctional"
 ]
 
 setup(
