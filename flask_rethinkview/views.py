@@ -1,4 +1,4 @@
-import rethinkdb as r
+from rethinkdb import r
 from flask import current_app, request
 from flask_classful import FlaskView
 from functional import seq

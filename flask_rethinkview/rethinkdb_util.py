@@ -3,7 +3,7 @@ This sourcecode is base on flask-rethinkdb
 https://github.com/linkyndy/flask-rethinkdb/blob/master/flask_rethinkdb/__init__.py
 """
 
-import rethinkdb as r
+from rethinkdb import r
 from flask import _app_ctx_stack as stack
 # Since no older versions than 0.9 are supported for Flask, this is safe
 from flask import Flask, current_app
